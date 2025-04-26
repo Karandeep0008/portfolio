@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Sudoku Solver Visualizer"
               description="Developed a dynamic Sudoku solver using JavaScript, implementing a backtracking algorithm with visual feedback, real-time validation, and puzzle fetching from a backend API."
-              ghLink="https://github.com/apslhvsl/Sudoku-Generator-and-Solver"
+              ghLink="https://github.com/Karandeep0008/Sudoku-Generator-and-Solver"
             />
           </Col>
 
@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Restaurant Website"
               description="Developed a responsive restaurant website with an interactive, visually appealing menu for an enhanced user experience. Gained hands-on experience in implementing front-end web development techniques."
-              ghLink="https://github.com/apslhvsl/Resturant-Website"
+              ghLink="https://github.com/Karandeep0008/Resturant-Website"
             />
           </Col>
 
@@ -56,7 +56,7 @@ function Projects() {
               isBlog={false}
               title="Text Data Analysis - YouTube Case Study"
               description="Conducted data analysis on YouTube categories and trends using Sentiment Analysis and Word-cloud Generation."
-              ghLink="https://github.com/apslhvsl/YouTube_Sentiment_Analysis"
+              ghLink="https://github.com/Karandeep0008/YouTube_Sentiment_Analysis"
             />
           </Col>
         </Row>
