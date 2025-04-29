@@ -57,6 +57,24 @@ function AboutCard() {
           </ul>
         </blockquote>
       </Card.Body>
+                <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <h1>
+            <strong className="purple">Achivements</strong>
+          </h1>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Achivements 1
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Achivements 2
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Achivements 3
+            </li>
+          </ul>
+        </blockquote>
+      </Card.Body>
     </Card>
   );
 }
