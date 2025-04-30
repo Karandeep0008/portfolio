@@ -16,10 +16,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Hi, I’m Karandeep Singh. I’m a Full Stack Developer and Data Science enthusiast from India.
               <br />
-              <br />I am fluent in classics like
+              <br />I'm comfortable with languages like
               <i>
                 <b className="purple"> C++, Javascript and Python. </b>
               </i>
