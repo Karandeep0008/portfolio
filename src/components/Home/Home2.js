@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdEmail } from "react-icons/md"; // <-- Import Email Icon
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn, FaPhone } from "react-icons/fa"; // <-- Added FaPhone
+import { MdEmail } from "react-icons/md"; // <-- Email Icon
 
 function Home2() {
   return (
@@ -61,19 +61,17 @@ function Home2() {
                   href="https://github.com/karandeep0008"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/karandeep0008"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  href="tel:8219784236"
+                  className="icon-colour home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaPhone /> &nbsp;8219784236
                 </a>
               </li>
               <li className="social-icons">
@@ -81,19 +79,19 @@ function Home2() {
                   href="https://www.linkedin.com/in/0001karandeepsingh"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:ranakaran571@gmail.com@gmail.com"
+                  href="mailto:ranakaran571@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <MdEmail /> {/* <-- Email Icon */}
+                  <MdEmail />
                 </a>
               </li>
             </ul>
