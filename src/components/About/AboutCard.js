@@ -64,13 +64,13 @@ function AboutCard() {
           </h1>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Achivements 1
+              <ImPointRight /> Achieved 4 star rating in SQL on Hackerrank.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Achivements 2
+              <ImPointRight /> National Level Wushu player.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Achivements 3
+              <ImPointRight /> Represented Himachal Pradesh at National level in Kabaddi.
             </li>
           </ul>
         </blockquote>
