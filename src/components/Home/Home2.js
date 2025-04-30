@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaPhone } from "react-icons/fa"; // <-- Added FaPhone
-import { MdEmail } from "react-icons/md"; // <-- Email Icon
+import { FaLinkedinIn, FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Home2() {
+  const [showPhone, setShowPhone] = useState(false);
+
+  const handlePhoneClick = (e) => {
+    e.preventDefault();
+    setShowPhone(!showPhone);
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -56,6 +63,7 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              {/* GitHub Icon */}
               <li className="social-icons">
                 <a
                   href="https://github.com/karandeep0008"
@@ -66,14 +74,31 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+
+              {/* Phone Icon with Click-to-Reveal */}
+              <li className="social-icons" style={{ position: "relative" }}>
                 <a
-                  href="tel:8219784236"
+                  href="#!"
+                  onClick={handlePhoneClick}
                   className="icon-colour home-social-icons"
                 >
-                  <FaPhone /> &nbsp;8219784236
+                  <FaPhone />
                 </a>
+                {showPhone && (
+                  <div
+                    style={{
+                      marginTop: "5px",
+                      fontSize: "0.9em",
+                      color: "#6c63ff",
+                      textAlign: "center",
+                    }}
+                  >
+                    8219784236
+                  </div>
+                )}
               </li>
+
+              {/* LinkedIn Icon */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/0001karandeepsingh"
@@ -84,6 +109,8 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
+              {/* Email Icon */}
               <li className="social-icons">
                 <a
                   href="mailto:ranakaran571@gmail.com"
